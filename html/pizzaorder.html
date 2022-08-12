@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>pizza ordering</title>
+    </head>
+    <body>
+        <form align="center">
+            <h1>Pizza Ordering</h1>
+            <label for="fname">FirstName:</label>
+            <input type="text" maxlength="20" pattern="[A-za-z]"/>
+            <br/><br/>
+            <label for="phnno">PhoneNumber:</label>
+            <input type="tel" maxlength="10"/>
+            <br/><br/>
+            <label for="size">Size:</label>
+            <input type="radio" name="size" id="small"/>Small     
+            <input type="radio" name="size" id="medium"/>Medium     
+            <input type="radio" name="size" id="large"/>Large     
+            <input type="radio" name="size" id="extralarge"/>extralarge
+            <br/><br/>
+            <label for="base">Base</label>
+            <select id="base" name="base">
+                <option value="panpizza">Pan Pizza</option>
+                <option value="cheesecrust">Cheese Crust</option>
+                <option value="chickenstuffedcrust">Chicken Stuffed Crust</option>
+            </select><br/><br/>
+            <label for="addinfo">Additional Information</label>
+            <textarea id="textarea" rows="2" cols="30"></textarea>
+            <br/><br/>
+            <input type="reset" value="cancel"/>
+            <input type="submit" value="order"/>
+        </form>
+    </body>
+</html>
