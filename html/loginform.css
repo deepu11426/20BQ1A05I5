@@ -1,0 +1,20 @@
+.b1{
+    padding:0.8em;
+    border: 1px solid black;
+    width: 200px;
+    background-color: black;
+}
+.b2{
+    border:1px solid blue;
+    padding: 2px;
+    width: 200px;
+    background-color: white;
+}
+.log{
+    color:blue;
+}
+.but{
+    background-color: blue;
+    color: white;
+    border:none;
+}
