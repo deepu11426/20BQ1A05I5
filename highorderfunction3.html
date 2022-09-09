@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+function alphanumeric(inputtxt)
+{
+ var letterNumber = /^[0-9a-zA-Z]+$/;
+ if((inputtxt.match(letterNumber)))
+  {
+   return true;
+  }
+  else
+  { 
+   alert("message"); 
+   return false; 
+  }
+}
+document.write(alphanumeric("123"))
+</script>
+</body>
+</html>
+
+
